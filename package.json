@@ -1,0 +1,37 @@
+{
+  "name": "roux",
+  "title": "ROUX Mobile UI Toolkit",
+  "version": "0.0.1",
+  "description": "A cross-platform UI toolkit for building HTML5 mobile applications.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AppSauceLabs/ROUX.git"
+  },
+  "keywords": [
+    "Mobile",
+    "iOS",
+    "UI"
+  ],
+  "author": {
+    "name": "Christopher Frazier",
+    "email": "chris@appsaucelabs.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/AppSauceLabs/ROUX/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.5",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "qunit": "~0.5.16",
+    "grunt-contrib-sass": "~0.5.0"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
